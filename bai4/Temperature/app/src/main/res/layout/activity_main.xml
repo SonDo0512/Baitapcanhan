@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTemperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập nhiệt độ"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonCtoF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chuyển °C → °F" />
+
+    <Button
+        android:id="@+id/buttonFtoC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chuyển °F → °C" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+</LinearLayout>
